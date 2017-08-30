@@ -4,4 +4,6 @@
 
 def roll
   # code goes here
+  dice = Random.new
+  return dice.rand(1..6)
 end
